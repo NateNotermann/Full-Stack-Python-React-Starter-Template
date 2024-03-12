@@ -31,6 +31,10 @@
 .venv
 /flask-server/.venv
 /flask-server/test5.js
+/flask-server/folder
+/flask-server/folder/item.js
+
+
 
 
 
