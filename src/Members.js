@@ -18,7 +18,7 @@ function Members(){
 
   return (
     <div>
-        <p>This is the App.jsx file</p>
+        <p>This is the Members COMPONENT</p>
         {(typeof data.members === 'undefined') ?(
             <p>loading..</p>
         ): (
@@ -32,4 +32,4 @@ function Members(){
   )
 }
 
-export default Members
+export default Members;
