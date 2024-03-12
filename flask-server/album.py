@@ -68,7 +68,7 @@ print(result)
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/artist')
 def index():
     p = '<p>' + 'I searched for my favorite artist: ' + result["name"] + '<p>'
     p2 = '<p>This is their Spotify profile art.</p>'
