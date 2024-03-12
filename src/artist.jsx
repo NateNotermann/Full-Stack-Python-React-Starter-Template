@@ -18,7 +18,7 @@ function Artist(){
 
   return (
     <div>
-        <p>This is the Artist.jsx file</p>
+        <p>This is the Artist COMPONENT</p>
         {/* {(typeof data.members === 'undefined') ?(
             <p>loading..</p>
         ): (
@@ -32,4 +32,4 @@ function Artist(){
   )
 }
 
-export default Artist
+export default Artist;
