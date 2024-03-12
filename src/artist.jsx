@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react' 
 
-function App(){
+function Artist(){
 
   const [data, setData] = useState([{}])
 
   useEffect(() => {
-    fetch("/members").then(
+    fetch("/artist").then(
       res => res.json()
     ).then(
       data => {
@@ -18,18 +18,18 @@ function App(){
 
   return (
     <div>
-        <p>This is the App.jsx file</p>
-        {(typeof data.members === 'undefined') ?(
+        <p>This is the Artist.jsx file</p>
+        {/* {(typeof data.members === 'undefined') ?(
             <p>loading..</p>
         ): (
           data.members.map((member, i) => (
             <p key={i}>{member}</p>
           ))
         )
-      }
+      } */}
 
     </div>  
   )
 }
 
-export default App
+export default Artist

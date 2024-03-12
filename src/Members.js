@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react' 
 
-function App(){
+function Members(){
 
   const [data, setData] = useState([{}])
 
@@ -32,4 +32,4 @@ function App(){
   )
 }
 
-export default App
+export default Members
