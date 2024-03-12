@@ -29,6 +29,13 @@
 
 # Python virtual environment files
 .venv
+../flask-server/.venv
+../flask-server/test2.js
+../flask-server/test2.js/
+../flask-server/test3.js
+
+
+
 
 # Mac Auto-Generated Files and code editor files
 .DS_Store
