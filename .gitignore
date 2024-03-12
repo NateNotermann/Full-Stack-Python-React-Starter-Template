@@ -29,11 +29,8 @@
 
 # Python virtual environment files
 .venv
-../flask-server/.venv
-../flask-server/test2.js
-../flask-server/test2.js/
-../flask-server/test3.js
-/flask-server/test4.js
+/flask-server/.venv
+/flask-server/test5.js
 
 
 
