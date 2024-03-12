@@ -47,6 +47,14 @@ function App(){
   return (
     <div>
         <p>This is the App.jsx file</p>
+        {(typeof data.members === 'undefined') ?(
+            <p>loading..</p>
+        ): (
+          data.members.map((member, i) => (
+            <p key={i}>{member}</p>
+          ))
+        )
+      }
 
     </div>  
   )
